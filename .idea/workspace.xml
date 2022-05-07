@@ -20,13 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51275121-2cda-4af9-a802-d3893c375868" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mdocker/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mdocker/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mdocker/core/checker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mdocker/core/copy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mdocker/core/dockerfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mdocker/core/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdocker/core/project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdocker/projects/qms_backend/conf.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mdocker/core/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/mdocker/core/exceptions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651732725328</updated>
-      <workItem from="1651732726677" duration="2114000" />
+      <workItem from="1651732726677" duration="2610000" />
+      <workItem from="1651801965890" duration="32000" />
+      <workItem from="1651890524212" duration="3800000" />
     </task>
     <servers />
   </component>
@@ -81,11 +80,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1651732790646">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="96" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760/-2560.0.2048.1112@0.0.1280.760" timestamp="1651732790646" />
+    <state x="-1798" y="357" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1651892000942">
+      <screen x="-2560" y="0" width="2048" height="1112" />
+    </state>
+    <state x="-1798" y="357" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1651892000942" />
+    <state x="-1755" y="311" key="FileChooserDialogImpl" timestamp="1651801995474">
+      <screen x="-2560" y="0" width="2048" height="1112" />
+    </state>
+    <state x="-1755" y="311" key="FileChooserDialogImpl/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1651801995474" />
   </component>
 </project>

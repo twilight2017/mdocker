@@ -1,0 +1,11 @@
+name = 'qms_backend'
+type = 'backend'
+version = '1.2.3'
+entry = [
+    'poetry run python manage.py migrate',
+    'poetry run python -m gunicorn --bind 0.0.0.0:9091 qms.wsgi'
+]
+
+required_files = [
+    'poetry.lock'
+]
