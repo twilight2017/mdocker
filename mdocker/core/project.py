@@ -1,5 +1,5 @@
 import pathlib
-import toml
+import toml  # toml是一个文件解析处理包，主要支持将文件和字符串解析为字典形式并返回
 from mdocker.core.exceptions import InvalidTOML, ProjectDoesNotExist
 
 
@@ -8,7 +8,7 @@ def _toml_relative_path(toml_path: pathlib.Path):
 
 
 class Project:
-    def __init__(self, toml_path:pathlib.Path):
+    def __init__(self, toml_path: pathlib.Path):
         conf = toml.load(str(toml_path))
         try:
             self.name = conf['name']
@@ -49,23 +49,23 @@ class Project:
                               detail=toml_path)
 
 
-__projects: dict[str, Project]={}
+__projects: dict[str, Project] = {}
 
 
 def register_projects():
     import mdocker.projects as p
-    projects_dir = pathlib.Path(p.__file__).parent  # __file__就是当前脚本的运行路径
+    projects_dir = pathlib.Path(p.__file__).parent  # __file__就是当前脚本的运行路径，projects_dir获取的是projects文件夹路径
 
     # list all dictionaries and find project modules
     for module in projects_dir.glob('**'):
-        if module.name == '__pycache__':
+        if module.name == '__pycache__':  # module遍历了core文件夹下的所有文件
             continue
         toml_path = module / 'conf.toml'
         if not toml_path.exists():
             continue
         project = Project(toml_path)
         if project.name in __projects:
-            raise InvalidTOML(f'Project "{project.name}" already exists.',detail=toml_path)
+            raise InvalidTOML(f'Project "{project.name}" already exists.', detail=toml_path)
         __projects[project.name] = project
     print('Registered projects: ')
     for project in __projects:
