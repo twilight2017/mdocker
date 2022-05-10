@@ -20,8 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51275121-2cda-4af9-a802-d3893c375868" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mdocker/core/docker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mdocker/core/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/mdocker/core/project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdocker/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdocker/project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mdocker/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mdocker/core/checker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mdocker/core/copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mdocker/core/docker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mdocker/core/dockerfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mdocker/core/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mdocker/core/project.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mdocker/projects/qms_backend/conf.toml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +71,8 @@
       <workItem from="1651732726677" duration="2610000" />
       <workItem from="1651801965890" duration="32000" />
       <workItem from="1651890524212" duration="7247000" />
-      <workItem from="1652060056111" duration="4771000" />
+      <workItem from="1652060056111" duration="5456000" />
+      <workItem from="1652146996006" duration="5686000" />
     </task>
     <servers />
   </component>
