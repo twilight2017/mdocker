@@ -1,0 +1,6 @@
+is_backend = true
+
+required_files = [
+    'poetry.lock',
+    'entrypoint.sh'
+]

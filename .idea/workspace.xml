@@ -20,17 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51275121-2cda-4af9-a802-d3893c375868" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mdocker/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mdocker/project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mdocker/core/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mdocker/core/checker.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mdocker/core/copy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mdocker/core/docker.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mdocker/core/dockerfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mdocker/core/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mdocker/core/project.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mdocker/projects/qms_backend/conf.toml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdocker/build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdocker/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdocker/repo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdocker/templates/backend.Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdocker/templates/backend.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdocker/templates/frontend.Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdocker/templates/frontend.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mdocker/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/mdocker/project.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +56,35 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mdocker" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mdocker" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mdocker/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -72,7 +99,8 @@
       <workItem from="1651801965890" duration="32000" />
       <workItem from="1651890524212" duration="7247000" />
       <workItem from="1652060056111" duration="5456000" />
-      <workItem from="1652146996006" duration="5686000" />
+      <workItem from="1652146996006" duration="15879000" />
+      <workItem from="1652230518552" duration="5537000" />
     </task>
     <servers />
   </component>
@@ -104,5 +132,28 @@
       <screen x="-2560" y="0" width="2048" height="1112" />
     </state>
     <state x="-1755" y="311" key="FileChooserDialogImpl/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1651801995474" />
+    <state width="2005" height="329" key="GridCell.Tab.0.bottom" timestamp="1652175002625">
+      <screen x="-2560" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="329" key="GridCell.Tab.0.bottom/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1652175002625" />
+    <state width="2005" height="329" key="GridCell.Tab.0.center" timestamp="1652175002625">
+      <screen x="-2560" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="329" key="GridCell.Tab.0.center/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1652175002625" />
+    <state width="2005" height="329" key="GridCell.Tab.0.left" timestamp="1652175002625">
+      <screen x="-2560" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="329" key="GridCell.Tab.0.left/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1652175002625" />
+    <state width="2005" height="329" key="GridCell.Tab.0.right" timestamp="1652175002625">
+      <screen x="-2560" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="329" key="GridCell.Tab.0.right/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1652175002625" />
+    <state x="-1873" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1652238557559">
+      <screen x="-2560" y="0" width="2048" height="1112" />
+    </state>
+    <state x="-1873" y="243" width="672" height="678" key="search.everywhere.popup/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1652238557559" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mdocker$main.coverage" NAME="main Coverage Results" MODIFIED="1652175002613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mdocker" />
   </component>
 </project>
