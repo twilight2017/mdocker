@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51275121-2cda-4af9-a802-d3893c375868" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mdocker/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mdocker/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mdocker/build.py" beforeDir="false" afterPath="$PROJECT_DIR$/mdocker/build.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,7 @@
       <workItem from="1652230518552" duration="7647000" />
       <workItem from="1652262373771" duration="336000" />
       <workItem from="1652403883861" duration="634000" />
-      <workItem from="1652515220116" duration="3476000" />
+      <workItem from="1652515220116" duration="4064000" />
     </task>
     <servers />
   </component>
