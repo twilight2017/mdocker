@@ -25,3 +25,23 @@ def cli():
     args = parser.parse_args()
     conf_dict = toml.load(args.toml_path)  # 从toml文件中获取配置字典
     default_toml, default_dockerfile = get_project_template(get_key(conf_dict, 'template'))
+    default_conf = {}
+    if default_toml:
+        default_conf = toml.load(default_toml)
+    if default_dockerfile:
+        default_conf['dockerfile'] = str(default_dockerfile)
+    for k, v in conf_dict.items():
+        override_conf(default_conf, k, v)  # 根据default_conf更新配置文件
+
+    tmp_dir = mkdtemp()
+    try:
+        project = Project(default_conf)
+        build(project, tmp_dir, args.use_cache)
+    except MDockerError as e:
+        sys.exit(str(e))
+    finally:
+        shutil.rmtree(tmp_dir)
+
+
+if __name__ == '__main__':
+    cli()
