@@ -20,14 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51275121-2cda-4af9-a802-d3893c375868" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mdocker/build.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mdocker/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mdocker/repo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mdocker/templates/backend.Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mdocker/templates/backend.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mdocker/templates/frontend.Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mdocker/templates/frontend.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mdocker/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/mdocker/__main__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mdocker/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/mdocker/project.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +50,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mdocker" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,7 +63,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mdocker/main.py" />
+      <option name="SCRIPT_NAME" value="E:\study\python\mdocker\mdocker\__main__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.__main__" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +93,10 @@
       <workItem from="1651890524212" duration="7247000" />
       <workItem from="1652060056111" duration="5456000" />
       <workItem from="1652146996006" duration="15879000" />
-      <workItem from="1652230518552" duration="5537000" />
+      <workItem from="1652230518552" duration="7647000" />
+      <workItem from="1652262373771" duration="336000" />
+      <workItem from="1652403883861" duration="634000" />
+      <workItem from="1652515220116" duration="2537000" />
     </task>
     <servers />
   </component>
@@ -128,32 +124,36 @@
       <screen x="-2560" y="0" width="2048" height="1112" />
     </state>
     <state x="-1798" y="357" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1651892000942" />
-    <state x="-1755" y="311" key="FileChooserDialogImpl" timestamp="1651801995474">
+    <state x="-1755" y="311" key="FileChooserDialogImpl" timestamp="1652405295809">
       <screen x="-2560" y="0" width="2048" height="1112" />
     </state>
-    <state x="-1755" y="311" key="FileChooserDialogImpl/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1651801995474" />
-    <state width="2005" height="329" key="GridCell.Tab.0.bottom" timestamp="1652175002625">
+    <state x="-1755" y="311" key="FileChooserDialogImpl/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1652405295809" />
+    <state width="2005" height="245" key="GridCell.Tab.0.bottom" timestamp="1652252834848">
       <screen x="-2560" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="329" key="GridCell.Tab.0.bottom/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1652175002625" />
-    <state width="2005" height="329" key="GridCell.Tab.0.center" timestamp="1652175002625">
+    <state width="2005" height="245" key="GridCell.Tab.0.bottom/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1652252834848" />
+    <state width="2005" height="245" key="GridCell.Tab.0.center" timestamp="1652252834848">
       <screen x="-2560" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="329" key="GridCell.Tab.0.center/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1652175002625" />
-    <state width="2005" height="329" key="GridCell.Tab.0.left" timestamp="1652175002625">
+    <state width="2005" height="245" key="GridCell.Tab.0.center/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1652252834848" />
+    <state width="2005" height="245" key="GridCell.Tab.0.left" timestamp="1652252834848">
       <screen x="-2560" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="329" key="GridCell.Tab.0.left/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1652175002625" />
-    <state width="2005" height="329" key="GridCell.Tab.0.right" timestamp="1652175002625">
+    <state width="2005" height="245" key="GridCell.Tab.0.left/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1652252834848" />
+    <state width="2005" height="245" key="GridCell.Tab.0.right" timestamp="1652252834848">
       <screen x="-2560" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="329" key="GridCell.Tab.0.right/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1652175002625" />
+    <state width="2005" height="245" key="GridCell.Tab.0.right/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1652252834848" />
+    <state x="683" y="0" width="597" height="760" key="find.popup" timestamp="1652252823140">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="683" y="0" width="597" height="760" key="find.popup/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1652252823140" />
     <state x="-1873" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1652238557559">
       <screen x="-2560" y="0" width="2048" height="1112" />
     </state>
     <state x="-1873" y="243" width="672" height="678" key="search.everywhere.popup/0.0.1280.760/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1652238557559" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mdocker$main.coverage" NAME="main Coverage Results" MODIFIED="1652175002613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mdocker" />
+    <SUITE FILE_PATH="coverage/mdocker$main.coverage" NAME="main Coverage Results" MODIFIED="1652239644217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mdocker" />
   </component>
 </project>
