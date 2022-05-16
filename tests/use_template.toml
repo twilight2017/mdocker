@@ -1,0 +1,9 @@
+name = 'qms_backend'
+template = 'backend-poetry'
+project_dir = ''
+required_files = [
+    'poetry.lock',
+    'pyproject.toml'
+]
+entrypoint = 'python manage.py runserver'
+docker_args = '--build-args ssh_prv_key="$(cat ~/.ssh/known_hosts)"'
